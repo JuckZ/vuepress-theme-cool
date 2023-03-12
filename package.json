@@ -6,7 +6,6 @@
   "author": "Juck <juckz@foxmail.com>",
   "license": "MIT",
   "type": "module",
-  "private": "true",
   "workspaces": [
     "packages/vuepress-plugin-cool/*",
     "packages/vuepress-theme-cool"

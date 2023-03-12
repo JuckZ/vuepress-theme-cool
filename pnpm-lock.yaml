@@ -45,16 +45,16 @@ importers:
 
   packages/vuepress-theme-cool:
     specifiers:
-      '@cool/vuepress-plugin-publisher': 0.0.1
-      '@cool/vuepress-plugin-url-handler': 0.0.1
+      '@ihavecool/vuepress-plugin-publisher': 0.0.1
+      '@ihavecool/vuepress-plugin-url-handler': 0.0.1
       '@vuepress/core': 2.0.0-beta.60
       '@vuepress/plugin-container': ^2.0.0-beta.60
       '@vuepress/theme-default': 2.0.0-beta.60
       '@vuepress/utils': 2.0.0-beta.60
       vuepress-theme-reco: ^2.0.0-beta.53
     dependencies:
-      '@cool/vuepress-plugin-publisher': link:../vuepress-plugin-cool/vuepress-plugin-publisher
-      '@cool/vuepress-plugin-url-handler': link:../vuepress-plugin-cool/vuepress-plugin-url-handler
+      '@ihavecool/vuepress-plugin-publisher': link:../vuepress-plugin-cool/vuepress-plugin-publisher
+      '@ihavecool/vuepress-plugin-url-handler': link:../vuepress-plugin-cool/vuepress-plugin-url-handler
       '@vuepress/core': 2.0.0-beta.60
       '@vuepress/plugin-container': 2.0.0-beta.50-pre.1
       '@vuepress/theme-default': 2.0.0-beta.60

@@ -1,5 +1,5 @@
 {
-  "name": "@cool/vuepress-plugin-url-handler",
+  "name": "@ihavecool/vuepress-plugin-url-handler",
   "version": "0.0.1",
   "description": "At the release stage, you have more choices",
   "exports": "./lib/index.js",

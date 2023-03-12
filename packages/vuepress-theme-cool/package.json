@@ -1,5 +1,5 @@
 {
-  "name": "@cool/vuepress-theme-cool",
+  "name": "@ihavecool/vuepress-theme-cool",
   "version": "0.0.1",
   "description": "",
   "exports": "./lib/index.js",
@@ -22,7 +22,7 @@
     "@vuepress/theme-default": "2.0.0-beta.60",
     "@vuepress/utils": "2.0.0-beta.60",
     "vuepress-theme-reco": "^2.0.0-beta.53",
-    "@cool/vuepress-plugin-publisher": "0.0.1",
-    "@cool/vuepress-plugin-url-handler": "0.0.1"
+    "@ihavecool/vuepress-plugin-publisher": "0.0.1",
+    "@ihavecool/vuepress-plugin-url-handler": "0.0.1"
   }
 }

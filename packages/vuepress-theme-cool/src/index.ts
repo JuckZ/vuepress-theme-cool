@@ -1,6 +1,6 @@
 import type { Theme } from '@vuepress/core'
 import { getDirname, path } from '@vuepress/utils'
-import { publisherPlugin } from '@cool/vuepress-plugin-publisher'
+import { publisherPlugin } from '@ihavecool/vuepress-plugin-publisher'
 import recoTheme from 'vuepress-theme-reco'
 
 const publisherOpt = {
