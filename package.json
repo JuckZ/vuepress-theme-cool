@@ -1,0 +1,32 @@
+{
+  "name": "vuepress-theme-cool",
+  "version": "1.0.0",
+  "description": "Juck's Blog",
+  "repository": "vgit@github.com:JuckZ/vuepress-theme-cool.git",
+  "author": "Juck <juckz@foxmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "private": "true",
+  "workspaces": [
+    "packages/vuepress-plugin-cool/*",
+    "packages/vuepress-theme-cool"
+  ],
+  "scripts": {
+    "build": "npm run build:publisher && npm run build:cooltheme",
+    "build:publisher": "npm run build -w packages/vuepress-plugin-cool/vuepress-plugin-publisher",
+    "build:urlhandler": "npm run build -w packages/vuepress-plugin-cool/vuepress-plugin-url-handler",
+    "build:cooltheme": "npm run build -w packages/vuepress-theme-cool",
+    "clean:dep": "npm run clean -w packages/vuepress-plugin-cool/vuepress-plugin-publisher && npm run clean -w packages/vuepress-plugin-cool/vuepress-plugin-url-handler && npm run clean -w packages/vuepress-theme-cool"
+  },
+  "dependencies": {
+    "markdown-it-disable-url-encode": "^1.0.1",
+    "markdown-it-task-lists": "^2.1.1",
+    "vuepress": "2.0.0-beta.60",
+    "vuepress-markdown-it-wikilink": "^1.0.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "mdurl": "^1.0.1",
+    "typescript": "^4.9.5"
+  }
+}

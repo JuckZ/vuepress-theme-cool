@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "references": [
+    { "path": "packages/vuepress-plugin-cool/vuepress-plugin-publisher/tsconfig.build.json" },
+    { "path": "packages/vuepress-plugin-cool/vuepress-plugin-url-handler/tsconfig.build.json" },
+    { "path": "packages/vuepress-theme-cool/tsconfig.build.json" }
+  ],
+  "files": []
+}

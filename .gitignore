@@ -1,0 +1,8 @@
+node_modules
+.vuepress/.temp
+.vuepress/.cache
+/public
+.git
+blogs/.trash
+resources
+tsconfig.build.tsbuildinfo
